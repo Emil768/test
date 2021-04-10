@@ -187,13 +187,13 @@ button:not(.no_transition),
   text-shadow: 0 0 0.65px #333, 0 0 0.65px #333;
 }
 .in_to_languages_g {
-  border: solid 2px rgba(255, 255, 255, 0.5);
+  border: solid 1px rgba(255, 255, 255, 0.5);
   border-radius: 50%;
   margin-left: 38px;
   transition: all 0.3s;
 }
 .in_to_languages_g:hover {
-  border-color: #fff;
+  border-color: #fe4f15;
   color: #fff;
 }
 .in_to_bottom_sec {
@@ -647,7 +647,7 @@ a.hover_white:hover {
   align-items: center;
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
 }
 .hover_orange svg {
   margin-left: 10px;
@@ -808,7 +808,7 @@ a.hover_orange:hover {
 
 .butt_circle_link:before {
   content: "";
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -847,7 +847,7 @@ a.hover_orange:hover {
 .cat_case {
   color: rgba(255, 255, 255, 0.5);
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 30px;
 }
 .link_case_item {
@@ -947,6 +947,10 @@ a.hover_orange:hover {
   position: relative;
   width: 812px;
 }
+/* .swiper-slide {
+  width: 720px !important;
+} */
+
 @media only screen and (min-width: 1200px) {
   .in_to_item_slide_case {
     -webkit-transition: all 1s;

@@ -83,9 +83,12 @@
                                     <li>
                                         <a href="#" class="link">Contacts</a>
                                     </li>
+                                    <li class="in_to_languages_g">
+                                        <a href="#" class="link">En</a>
+                                    </li>
                                 </ul>
                             </div>
-                            <div class="languages_go">
+                            <!-- <div class="languages_go">
                                 <div class="in_to_languages_g">
                                     <ul>
                                         <li>
@@ -93,7 +96,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="menu_burger_go">
                             <div class="in_to_bug_g">
