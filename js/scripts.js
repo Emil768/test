@@ -271,6 +271,7 @@ function otherCode() {
   function hideScroll() {
     $("html").addClass("hide_scroll");
   }
+
   function enableScroll() {
     $("html").removeClass("hide_scroll");
   }
@@ -312,6 +313,26 @@ function otherCode() {
       },
       navigation: {
         nextEl: "#cases_next",
+      },
+      on: {
+        init: function () {
+          $(".swiper-slide-active").addClass("active");
+
+          $(".swiper-slide-next").find(".descr_this_case").css("opacity", "0");
+        },
+        transitionStart: function () {
+          $(".swiper-slide-active")
+            .find(".descr_this_case")
+            .css("opacity", "0.5");
+
+          $(".swiper-slide-next").find(".descr_this_case").css("opacity", "0");
+        },
+        transitionEnd: function (swiper) {
+          $(".swiper-slide-active")
+            .find(".descr_this_case")
+            .css("opacity", "1");
+          $(".swiper-slide-next").find(".descr_this_case").css("opacity", "0");
+        },
       },
       breakpoints: {
         320: {

@@ -539,7 +539,7 @@
 									</div>
 									<div class="submit_this_go has_animation" data-delay="200">
 										<div class="parallax-wrap">
-											<button type="submit" class="parallax-element no_transition submit_this_form_g"><span class="txt_submit_g">Отправить</span></button>
+											<button type="submit" class="parallax-element no_transition submit_this_form_g"><span class="txt_submit_g">Send</span></button>
 										</div>
 									</div>
 								</div>
